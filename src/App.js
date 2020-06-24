@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Card from "./components/card";
 import Board from "./components/board";
 import initializeDeck from "./deck";
 import Navbar from "./components/navbar";

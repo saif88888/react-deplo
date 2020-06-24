@@ -26,7 +26,11 @@ export default function Card({
         <img
           style={{ height, width }}
           className={flipped ? "front" : "back"}
-          src={flipped || solved ? `/img/${type}.png` : `/img/X.png`}
+          src={
+            flipped || solved
+              ? `https://raw.githubusercontent.com/saif88888/react-deplo/master/public/img/${type}.png`
+              : `https://raw.githubusercontent.com/saif88888/react-deplo/master/public/img/X.png`
+          }
         />
       </div>
     </div>
